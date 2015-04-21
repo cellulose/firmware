@@ -1,0 +1,6 @@
+- cleanup the mess with exec() and os_cmd
+- get_env(:app_id) seems wrong - needs to be configured in two places?
+- make firmware_valid? work as a plugin
+- why do we have to use such a specific version of fw_json?
+- uploading firmware is 100% tied to cowboy webserver right now
+- cowboy is not a plugin at all, but should be, absolutely!
